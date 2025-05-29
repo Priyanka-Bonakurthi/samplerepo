@@ -9,10 +9,10 @@ env:
 jobs:
   greeting job:
     runs_on: ubuntu-latest
-     env:
+    env:
       greeting: hello
   steps:
-   -name: Hello priyanka
-    run: echo "$greeting $first_name,welocome to $cloud"
-    env: 
+   - name: Hello priyanka
+     run: echo "$greeting $first_name,welocome to $cloud"
+     env: 
       first_name: priya
