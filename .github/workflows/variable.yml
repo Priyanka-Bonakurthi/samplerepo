@@ -14,5 +14,5 @@ jobs:
     steps:
       - name: "Hello priyanka"
         run: echo "$greeting $first_name,welocome to $cloud"
-         env: 
-           first_name: priya
+        env: 
+          first_name: priya
